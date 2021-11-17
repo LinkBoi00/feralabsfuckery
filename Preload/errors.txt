@@ -1,0 +1,2564 @@
+INFO  - loading ...
+INFO  - processing ...
+INFO  - progress: 0 of 3795 (0%)
+ERROR - Failed to decode 9-patch png image, path: res/0H.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/2C.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/09.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/33.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/5j.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/4_.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/5z.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/6w.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/72.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/7F.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/7P.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/7T.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/8V.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/8w.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/93.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/9X.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/AB.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/Ac.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/CA.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/Cg.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/Dt.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/E2.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/Eb.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/ER.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/FM.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/F8.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/Fx.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/Fx1.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/HS.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/In.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/J8.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/J6.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/Kp.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/Lq.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/Ml.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/Mz.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/Mr.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/NM.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/NP.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/O3.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/Of.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/Of1.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/Pq.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/Q1.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/Pi.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/Q11.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/QD.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/T2.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/TF.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/Tl.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+INFO  - progress: 338 of 3795 (8%)
+ERROR - Failed to decode 9-patch png image, path: res/Us.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/V-.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/V-1.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/VK.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/X3.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/Xs.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/Xp.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/Xs1.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/YH.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/Yt.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/_6.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/au.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/bK.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/bu.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/cM.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/ca.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/d1.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/dH.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/dv.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/e4.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/eK.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/eB.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/ei.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/fD.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/fZ.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/fr.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/fv.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/gG.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/gL.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/gV.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/h0.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/hj.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/ii.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/j-.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/j9.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/jK.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/jh.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/kK.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/ld.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/m9.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/n9.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/oR.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/pF.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/qr.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/rb.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/s2.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/sL.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/st.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/tM.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/tr.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/tj.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/uB.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/v6.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/vy.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/wK.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/wL.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/wi.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/wi1.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/x5.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+ERROR - Failed to decode 9-patch png image, path: res/yO.9.png
+jadx.core.utils.exceptions.JadxRuntimeException: 9patch image decode error
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:59)
+	at jadx.api.ResourcesLoader.decodeImage(ResourcesLoader.java:129)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:117)
+	at jadx.api.ResourcesLoader.lambda$loadContent$0(ResourcesLoader.java:84)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:73)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:84)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:66)
+	at jadx.core.xmlgen.ResourcesSaver.run(ResourcesSaver.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: jadx.core.utils.exceptions.JadxRuntimeException: Cant find nine patch chunk
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:76)
+	at jadx.core.utils.android.Res9patchStreamDecoder.getNinePatch(Res9patchStreamDecoder.java:65)
+	at jadx.core.utils.android.Res9patchStreamDecoder.decode(Res9patchStreamDecoder.java:43)
+	... 10 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at jadx.core.utils.android.DataInputDelegate.readInt(DataInputDelegate.java:61)
+	at jadx.core.utils.android.Res9patchStreamDecoder.find9patchChunk(Res9patchStreamDecoder.java:74)
+	... 12 common frames omitted
+INFO  - progress: 951 of 3795 (25%)
+INFO  - progress: 988 of 3795 (26%)
+INFO  - progress: 1014 of 3795 (26%)
+INFO  - progress: 1041 of 3795 (27%)
+INFO  - progress: 1202 of 3795 (31%)
+INFO  - progress: 1280 of 3795 (33%)
+INFO  - progress: 1488 of 3795 (39%)
+ERROR - [262] JadxOverflowException in pass: RegionMakerVisitor in method: con.ZEpQDovLv.GPLPRo6go(con.k0ugT26MT, long, con.PmanMZxiM, con.Way959ade):java.lang.Object, file: classes.dex, details: Regions count limit reached
+ERROR - [262] JadxOverflowException in pass: RegionMakerVisitor in method: con.ZEpQDovLv.oon79WMrY(con.k0ugT26MT, long, con.PmanMZxiM, con.Way959ade):java.lang.Object, file: classes.dex, details: Regions count limit reached
+INFO  - progress: 1881 of 3795 (49%)
+ERROR - [125] JadxOverflowException in pass: RegionMakerVisitor in method: con.fpplAiKys.J4Ux7ym32(con.k0ugT26MT, boolean, con.Way959ade):java.lang.Object, file: classes.dex, details: Regions count limit reached
+ERROR - [135] JadxOverflowException in pass: RegionMakerVisitor in method: con.fpplAiKys.q3BipwRCk(con.k0ugT26MT, con.Way959ade):java.lang.Object, file: classes.dex, details: Regions count limit reached
+ERROR - [431] JadxOverflowException in pass: RegionMakerVisitor in method: con.Bk8xyxq43.yWvV4ePLl(java.lang.Object):java.lang.Object, file: classes.dex, details: Regions count limit reached
+INFO  - progress: 2258 of 3795 (59%)
+INFO  - progress: 2967 of 3795 (78%)
+ERROR - [262] JadxOverflowException in pass: RegionMakerVisitor in method: con.ZEpQDovLv.GPLPRo6go(con.k0ugT26MT, long, con.PmanMZxiM, con.Way959ade):java.lang.Object, file: classes.dex, details: Regions count limit reached
+ERROR - [262] JadxOverflowException in pass: RegionMakerVisitor in method: con.ZEpQDovLv.oon79WMrY(con.k0ugT26MT, long, con.PmanMZxiM, con.Way959ade):java.lang.Object, file: classes.dex, details: Regions count limit reached
+INFO  - progress: 3328 of 3795 (87%)
+ERROR - [125] JadxOverflowException in pass: RegionMakerVisitor in method: con.fpplAiKys.J4Ux7ym32(con.k0ugT26MT, boolean, con.Way959ade):java.lang.Object, file: classes.dex, details: Regions count limit reached
+ERROR - [135] JadxOverflowException in pass: RegionMakerVisitor in method: con.fpplAiKys.q3BipwRCk(con.k0ugT26MT, con.Way959ade):java.lang.Object, file: classes.dex, details: Regions count limit reached
+INFO  - progress: 3465 of 3795 (91%)
+INFO  - progress: 3606 of 3795 (95%)
+INFO  - progress: 3720 of 3795 (98%)
+ERROR - 9 errors occurred in following nodes:
+ERROR -   Method: con.Bk8xyxq43.yWvV4ePLl(java.lang.Object):java.lang.Object
+ERROR -   Method: con.ZEpQDovLv.GPLPRo6go(con.k0ugT26MT, long, con.PmanMZxiM, con.Way959ade):java.lang.Object
+ERROR -   Method: con.ZEpQDovLv.oon79WMrY(con.k0ugT26MT, long, con.PmanMZxiM, con.Way959ade):java.lang.Object
+ERROR -   Method: con.fpplAiKys.J4Ux7ym32(con.k0ugT26MT, boolean, con.Way959ade):java.lang.Object
+ERROR -   Method: con.fpplAiKys.q3BipwRCk(con.k0ugT26MT, con.Way959ade):java.lang.Object
+ERROR - finished with errors, count: 9

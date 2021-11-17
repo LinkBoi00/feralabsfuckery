@@ -1,0 +1,74 @@
+package con;
+/* loaded from: classes.dex */
+public final class FVP3dB50k {
+    public static final mVycGceov Bhmn1KIah;
+    public static final mVycGceov CBQ5d1kRq;
+    public static final J8UIfudgU Eeka1udhb;
+    public static final mVycGceov GPLPRo6go;
+    public static final float[] J4Ux7ym32;
+    public static final mVycGceov MzoOEjc4X;
+    public static final mVycGceov PSTqBLTET;
+    public static final mVycGceov Puu3Rhg4F;
+    public static final J8UIfudgU RG6kpfv3v;
+    public static final mVycGceov dIocxURUo;
+    public static final mVycGceov dXrmkklc8;
+    public static final mVycGceov iiGwOFFnr;
+    public static final mVycGceov ilHKhw3Yw;
+    public static final J8UIfudgU[] ixWaw2akD;
+    public static final mVycGceov kCA6Zs9sL;
+    public static final mVycGceov kmSgne1rO;
+    public static final mVycGceov oon79WMrY;
+    public static final FVP3dB50k q3BipwRCk = new FVP3dB50k();
+    public static final J8UIfudgU qVUwofr5s;
+    public static final float[] tGV7Q6urW;
+    public static final mVycGceov vPSbyrYWX;
+    public static final mVycGceov yWvV4ePLl;
+
+    static {
+        float[] fArr = {0.64f, 0.33f, 0.3f, 0.6f, 0.15f, 0.06f};
+        J4Ux7ym32 = fArr;
+        float[] fArr2 = {0.67f, 0.33f, 0.21f, 0.71f, 0.14f, 0.08f};
+        tGV7Q6urW = fArr2;
+        yld3fM8k6 yld3fm8k6 = new yld3fM8k6(2.4d, 0.9478672985781991d, 0.05213270142180095d, 0.07739938080495357d, 0.04045d, 0.0d, 0.0d, 96);
+        yld3fM8k6 yld3fm8k62 = new yld3fM8k6(2.2d, 0.9478672985781991d, 0.05213270142180095d, 0.07739938080495357d, 0.04045d, 0.0d, 0.0d, 96);
+        oeZPZXh5R oezpzxh5r = Q5TZwEC4N.dIocxURUo;
+        mVycGceov mvycgceov = new mVycGceov("sRGB IEC61966-2.1", fArr, oezpzxh5r, yld3fm8k6, 0);
+        dIocxURUo = mvycgceov;
+        mVycGceov mvycgceov2 = new mVycGceov("sRGB IEC61966-2.1 (Linear)", fArr, oezpzxh5r, 1.0d, 0.0f, 1.0f, 1);
+        kCA6Zs9sL = mvycgceov2;
+        mVycGceov mvycgceov3 = new mVycGceov("scRGB-nl IEC 61966-2-2:2003", fArr, oezpzxh5r, null, DlhjQ2PrY.CpG0imbht, JHFXdtjfx.iMyQMM6Qj, -0.799f, 2.399f, yld3fm8k6, 2);
+        iiGwOFFnr = mvycgceov3;
+        mVycGceov mvycgceov4 = new mVycGceov("scRGB IEC 61966-2-2:2003", fArr, oezpzxh5r, 1.0d, -0.5f, 7.499f, 3);
+        GPLPRo6go = mvycgceov4;
+        mVycGceov mvycgceov5 = new mVycGceov("Rec. ITU-R BT.709-5", new float[]{0.64f, 0.33f, 0.3f, 0.6f, 0.15f, 0.06f}, oezpzxh5r, new yld3fM8k6(2.2222222222222223d, 0.9099181073703367d, 0.09008189262966333d, 0.2222222222222222d, 0.081d, 0.0d, 0.0d, 96), 4);
+        Puu3Rhg4F = mvycgceov5;
+        mVycGceov mvycgceov6 = new mVycGceov("Rec. ITU-R BT.2020-1", new float[]{0.708f, 0.292f, 0.17f, 0.797f, 0.131f, 0.046f}, oezpzxh5r, new yld3fM8k6(2.2222222222222223d, 0.9096697898662786d, 0.09033021013372146d, 0.2222222222222222d, 0.08145d, 0.0d, 0.0d, 96), 5);
+        yWvV4ePLl = mvycgceov6;
+        mVycGceov mvycgceov7 = new mVycGceov("SMPTE RP 431-2-2007 DCI (P3)", new float[]{0.68f, 0.32f, 0.265f, 0.69f, 0.15f, 0.06f}, new oeZPZXh5R(0.314f, 0.351f), 2.6d, 0.0f, 1.0f, 6);
+        oon79WMrY = mvycgceov7;
+        mVycGceov mvycgceov8 = new mVycGceov("Display P3", new float[]{0.68f, 0.32f, 0.265f, 0.69f, 0.15f, 0.06f}, oezpzxh5r, yld3fm8k6, 7);
+        vPSbyrYWX = mvycgceov8;
+        mVycGceov mvycgceov9 = new mVycGceov("NTSC (1953)", fArr2, Q5TZwEC4N.q3BipwRCk, new yld3fM8k6(2.2222222222222223d, 0.9099181073703367d, 0.09008189262966333d, 0.2222222222222222d, 0.081d, 0.0d, 0.0d, 96), 8);
+        CBQ5d1kRq = mvycgceov9;
+        mVycGceov mvycgceov10 = new mVycGceov("SMPTE-C RGB", new float[]{0.63f, 0.34f, 0.31f, 0.595f, 0.155f, 0.07f}, oezpzxh5r, new yld3fM8k6(2.2222222222222223d, 0.9099181073703367d, 0.09008189262966333d, 0.2222222222222222d, 0.081d, 0.0d, 0.0d, 96), 9);
+        kmSgne1rO = mvycgceov10;
+        mVycGceov mvycgceov11 = new mVycGceov("Adobe RGB (1998)", new float[]{0.64f, 0.33f, 0.21f, 0.71f, 0.15f, 0.06f}, oezpzxh5r, 2.2d, 0.0f, 1.0f, 10);
+        Bhmn1KIah = mvycgceov11;
+        mVycGceov mvycgceov12 = new mVycGceov("ROMM RGB ISO 22028-2:2013", new float[]{0.7347f, 0.2653f, 0.1596f, 0.8404f, 0.0366f, 1.0E-4f}, Q5TZwEC4N.J4Ux7ym32, new yld3fM8k6(1.8d, 1.0d, 0.0d, 0.0625d, 0.031248d, 0.0d, 0.0d, 96), 11);
+        PSTqBLTET = mvycgceov12;
+        oeZPZXh5R oezpzxh5r2 = Q5TZwEC4N.tGV7Q6urW;
+        mVycGceov mvycgceov13 = new mVycGceov("SMPTE ST 2065-1:2012 ACES", new float[]{0.7347f, 0.2653f, 0.0f, 1.0f, 1.0E-4f, -0.077f}, oezpzxh5r2, 1.0d, -65504.0f, 65504.0f, 12);
+        MzoOEjc4X = mvycgceov13;
+        mVycGceov mvycgceov14 = new mVycGceov("Academy S-2014-004 ACEScg", new float[]{0.713f, 0.293f, 0.165f, 0.83f, 0.128f, 0.044f}, oezpzxh5r2, 1.0d, -65504.0f, 65504.0f, 13);
+        ilHKhw3Yw = mvycgceov14;
+        W1RjhzDHo w1RjhzDHo = new W1RjhzDHo("Generic XYZ", 14);
+        qVUwofr5s = w1RjhzDHo;
+        N0eDBYyvD n0eDBYyvD = new N0eDBYyvD("Generic L*a*b*", 15);
+        Eeka1udhb = n0eDBYyvD;
+        mVycGceov mvycgceov15 = new mVycGceov("None", fArr, oezpzxh5r, yld3fm8k62, 16);
+        dXrmkklc8 = mvycgceov15;
+        jH1SHbnAI jh1shbnai = new jH1SHbnAI("Oklab", 17);
+        RG6kpfv3v = jh1shbnai;
+        ixWaw2akD = new J8UIfudgU[]{mvycgceov, mvycgceov2, mvycgceov3, mvycgceov4, mvycgceov5, mvycgceov6, mvycgceov7, mvycgceov8, mvycgceov9, mvycgceov10, mvycgceov11, mvycgceov12, mvycgceov13, mvycgceov14, w1RjhzDHo, n0eDBYyvD, mvycgceov15, jh1shbnai};
+    }
+}
